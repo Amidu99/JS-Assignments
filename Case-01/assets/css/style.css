@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+#light-kit{
+    display: flex;
+    position: absolute;
+    width: 720px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: black;
+}
+#btns{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.light{
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    border: 1px solid red;
+}
