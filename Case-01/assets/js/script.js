@@ -37,7 +37,7 @@ const lighting = ()=> {
 }
 $('#start').on('click', ()=> {
     if(interval_id===null) {
-        interval_id = setInterval(lighting, 100); /*give function name with time, time ms(1000ms=1s)*/
+        interval_id = setInterval(lighting, 75);
         $('#audio')[0].play();
         $('#audio')[0].loop=true;
     }
