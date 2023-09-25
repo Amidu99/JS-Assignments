@@ -1,0 +1,106 @@
+body {
+    background-color: #000000;
+}
+h1{
+    color: #08ff00;
+    font-family: "Segoe UI Black", serif;
+    text-align: center;
+    text-shadow: 0 0 2px #19ce05, 0 0 3px #0ee307, 0 0 5px #09ef0d, 0 0 10px #4bf139;
+    position: relative;
+    top: 20vh;
+}
+#que-section{
+    position: relative;
+    top: 20vh;
+    height: 40vh;
+}
+#boxes{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.box{
+    width: calc(80vw / 6);
+    aspect-ratio: 2/1;
+    border: 5px solid #000000;
+    border-radius: 15px;
+}
+.box:nth-child(1){
+    position: relative;
+    bottom: calc(80vw / 12);
+    background-color: #FE0000;
+    box-shadow: 0 0 0 0 #FE0000,
+    0 20px 15px -20px #FE0000;
+}
+.box:nth-child(2){
+    background-color: #008001;
+    box-shadow: 0 0 0 0 #008001,
+    0 20px 15px -20px #008001;
+}
+.box:nth-child(3){
+    background-color: #0000FE;
+    box-shadow: 0 0 0 0 #0000FE,
+    0 20px 15px -20px #0000FE;
+}
+.box:nth-child(4){
+    background-color: #FFFF00;
+    box-shadow: 0 0 0 0 #FFFF00,
+    0 20px 15px -20px #FFFF00;
+}
+.box:nth-child(5){
+    background-color: #FFBFCD;
+    box-shadow: 0 0 0 0 #FFBFCD,
+    0 20px 15px -20px #FFBFCD;
+}
+.box:nth-child(6){
+    position: relative;
+    top: calc(80vw / 12);
+    background-color: #e46ce5;
+    box-shadow: 0 0 0 0 #e46ce5,
+    0 20px 15px -20px #e46ce5;
+}
+#btn-section{
+    position: relative;
+    top: 20vh;
+    height: 25px;
+}
+#btns{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#start{
+    cursor: pointer;
+    font-family: "Segoe UI Black", serif;
+    color: #08a204;
+    border: 2px solid #06ff00;
+    background-color: #06ff00;
+    width: 98px;
+    border-radius: 10px;
+}
+#start:hover{
+    border: 2px solid #08a204;
+    box-shadow: 0 0 2px #08a204, 0 0 3px #06ff00, 0 0 5px #40ff00, 0 0 8px #68f134;
+}
+#stop{
+    cursor: pointer;
+    font-family: "Segoe UI Black", serif;
+    color: #bd0707;
+    border: 2px solid #ea3b4a;
+    background-color: #ea3b4a;
+    width: 98px;
+    border-radius: 10px;
+}
+#stop:hover{
+    border: 2px solid #bd0707;
+    box-shadow: 0 0 2px #8a0202, 0 0 3px #de0505, 0 0 5px #ee0c0c, 0 0 8px #ee3131;
+}
