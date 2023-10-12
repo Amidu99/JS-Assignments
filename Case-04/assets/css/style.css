@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+body{
+    background-color: #1a1d20;
+    min-width: 320px;
+    min-height: 400px;
+    margin: 0;
+}
+.calculator {
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    padding: 20px 10px 10px;
+    background-color: #000000;
+    border: 1px solid #4b4b4b;
+    margin: calc(50vh - 190px) auto auto;
+    box-shadow: rgba(255, 255, 255, 0.4) 0 2px 4px, rgba(255, 255, 255, 0.3) 0 7px 10px -2px, rgba(255, 255, 255, 0.2) 0 -3px 0 inset;
+}
+#display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#keypad{
+    padding-left: 10px;
+}
+.calculator input[type="text"] {
+    width: 90%;
+    height: 58px;
+    padding: 5px;
+    font-size: 32px;
+    color: #ffffff;
+    background-color: #000000;
+    margin-bottom: 10px;
+    border: 1px solid #4b4b4b;
+    border-radius: 10px;
+    font-family: 'Teko', sans-serif;
+}
+.calculator input[type="button"] {
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    width: 50px;
+    aspect-ratio: 1/1;
+    margin: 0 5px 5px 0;
+    border-radius: 50%;
+    background-color: #333333;
+    border: 1px solid #000000;
+    font-family: 'Roboto Mono', monospace;
+}
+.calculator input[type="button"]:hover{
+    scale: 107%;
+}
+#keypad>input:nth-child(1),
+#keypad>input:nth-child(2),
+#keypad>input:nth-child(3){
+    color: #000000;
+    background-color: #A5A5A5;
+}
+#keypad>input:nth-child(4),
+#keypad>input:nth-child(9),
+#keypad>input:nth-child(14),
+#keypad>input:nth-child(19),
+#keypad>input:nth-child(24) {
+    background-color: #FE9505;
+}

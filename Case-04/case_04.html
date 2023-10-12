@@ -7,7 +7,38 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-
+<div class="calculator">
+    <div id="display">
+        <input type="text" id="output" readonly>
+    </div>
+    <div id="keypad">
+        <input type="button" value="AC" onclick="clearOutput()">
+        <input type="button" value="(" onclick="appendToOutput('(')">
+        <input type="button" value=")" onclick="appendToOutput(')')">
+        <input type="button" value="/" onclick="appendOperator('/')">
+        <br>
+        <input type="button" value="7" onclick="appendToOutput(7)">
+        <input type="button" value="8" onclick="appendToOutput(8)">
+        <input type="button" value="9" onclick="appendToOutput(9)">
+        <input type="button" value="*" onclick="appendOperator('*')">
+        <br>
+        <input type="button" value="4" onclick="appendToOutput(4)">
+        <input type="button" value="5" onclick="appendToOutput(5)">
+        <input type="button" value="6" onclick="appendToOutput(6)">
+        <input type="button" value="-" onclick="appendOperator('-')">
+        <br>
+        <input type="button" value="1" onclick="appendToOutput(1)">
+        <input type="button" value="2" onclick="appendToOutput(2)">
+        <input type="button" value="3" onclick="appendToOutput(3)">
+        <input type="button" value="+" onclick="appendOperator('+')">
+        <br>
+        <input type="button" value="." onclick="appendToOutput('.')">
+        <input type="button" value="0" onclick="appendToOutput(0)">
+        <input type="button" value="%" onclick="appendOperator('%')">
+        <input type="button" value="=" onclick="calculateOutput('=')">
+        <br>
+    </div>
+</div>
 <script src="../assets/jquery.min.js"></script>
 <script src="./assets/js/script.js"></script>
 </body>
